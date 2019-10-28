@@ -155,6 +155,7 @@ main {
       padding: 20px; }
       #header .menu-pc ul li {
         padding: 10px;
+        margin: 0 5px;
         text-transform: uppercase; }
         #header .menu-pc ul li a {
           color: #000;
@@ -162,6 +163,22 @@ main {
       #header .menu-pc ul li:hover {
         background-color: #000; }
         #header .menu-pc ul li:hover a {
+          color: #FFF; }
+      #header .menu-pc ul .li-about {
+        background-color: #000; }
+        #header .menu-pc ul .li-about a {
+          color: #FFF; }
+      #header .menu-pc ul .li-works {
+        background-color: #000; }
+        #header .menu-pc ul .li-works a {
+          color: #FFF; }
+      #header .menu-pc ul .li-blog {
+        background-color: #000; }
+        #header .menu-pc ul .li-blog a {
+          color: #FFF; }
+      #header .menu-pc ul .li-contact {
+        background-color: #000; }
+        #header .menu-pc ul .li-contact a {
           color: #FFF; }
 
   main #mainVisual {
