@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kazuhito Tokita - portfolio</title>
+    <meta name="description" content="Webデザイナー 鴇田和士のポートフォリオサイトです。">
+    <meta name="keywords" content="Web, デザイン, エンジニア, ポートフォリオ, Web制作">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="menu">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="open-js">
+            <div id="gloval-nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">top</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="works.html">works</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="menu-pc">
+            <ul>
+                <li><a href="index.html">top</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="works.html">works</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="mainVisual">
+            <h1>blog</h1>
+            <p class="non_top_mainVisual">My diary</p>
+        </section>
+        <section id="container">
+            <div class="blog">
+                <p>現在はありません。</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Kazuhito Tokita, All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- ハンバーガーメニューの動き -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(document).ready(function() {
+
+                $(".menu-trigger").click(function() {
+                    $(this).toggleClass("active");
+                    $(".open-js").toggleClass("open");
+                });
+
+            });
+        });
+    </script>
+    
+    <!-- タイトルのエフェクト -->
+    <script>
+        $(function() {
+            var $allMsg = $('h1');
+            var $wordList = $('h1').html().split("");
+            $('h1').html("");
+            $.each($wordList, function(idx, elem) {
+                var newEL = $("<span/>").text(elem).css({ opacity: 0 });
+                newEL.appendTo($allMsg);
+                newEL.delay(idx * 70);
+                newEL.animate({ opacity: 1 }, 1100);
+            });
+        });
+    </script>
+</body>
+
+</html>
