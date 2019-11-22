@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Abel");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif; }
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center; }
+  #header .logo_and_search {
+    display: flex;
+    align-items: center; }
+    #header .logo_and_search h1 {
+      width: 12%;
+      padding: 0 10px;
+      margin: 0 15px; }
+      #header .logo_and_search h1 img {
+        width: 100%; }
+    #header .logo_and_search input {
+      padding: 10px;
+      border: 1px solid #000000;
+      width: 300px; }
+  #header .navi ul {
+    display: flex; }
+    #header .navi ul li {
+      padding: 0 8px;
+      font-size: 14px;
+      font-weight: bold; }
+
+main #first_view {
+  margin-top: 10px;
+  position: relative; }
+  main #first_view .first_view_img {
+    width: 100%; }
+    main #first_view .first_view_img img {
+      width: 100%; }
+  main #first_view .first_view_text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 100; }
+    main #first_view .first_view_text h1 {
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 46px; }
+    main #first_view .first_view_text .middle_text {
+      color: #FFFFFF;
+      margin: 35px 0;
+      font-size: 18px; }
+    main #first_view .first_view_text .btn {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      padding: 12px;
+      width: 200px; }
+      main #first_view .first_view_text .btn .btn_text {
+        text-align: center;
+        color: #484848;
+        font-size: 18px;
+        font-weight: bold; }
+main #present {
+  width: 72%;
+  margin: 0 auto;
+  margin-top: 60px; }
+  main #present h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: #484848; }
+  main #present .present_contents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+    main #present .present_contents .content {
+      text-align: center; }
+      main #present .present_contents .content .content_img {
+        width: 15%;
+        margin: 0 auto; }
+        main #present .present_contents .content .content_img img {
+          width: 100%; }
+      main #present .present_contents .content h3 {
+        margin: 25px 0;
+        font-weight: bold;
+        color: #484848;
+        font-size: 18px; }
+      main #present .present_contents .content p {
+        color: #767676;
+        font-size: 16px;
+        line-height: 1.5; }
+    main #present .present_contents .content_center {
+      margin: 0 20px; }
+main #gift_card {
+  background-color: #307b87;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 0; }
+  main #gift_card h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px; }
+  main #gift_card h3 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 20px; }
+  main #gift_card .btn {
+    padding: 15px;
+    background-color: #ff5a5f;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px; }
+    main #gift_card .btn .btn_text {
+      color: #FFFFFF; }
+  main #gift_card .bottom_text {
+    margin-top: 20px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 14px; }
+main #various_contents {
+  width: 72%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px; }
+  main #various_contents .content {
+    width: 20%; }
+    main #various_contents .content p {
+      font-weight: bold;
+      margin-bottom: 20px; }
+    main #various_contents .content ul li {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #767676; }
+  main #various_contents .icon_content {
+    width: 20%; }
+    main #various_contents .icon_content .icon_img {
+      display: flex;
+      margin-bottom: 10px; }
+      main #various_contents .icon_content .icon_img .icon {
+        width: 10%;
+        margin: 0 5px; }
+        main #various_contents .icon_content .icon_img .icon img {
+          width: 100%; }
+    main #various_contents .icon_content ul li {
+      color: #767676;
+      margin: 5px 0; }
+
+#footer {
+  width: 72%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #000000;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  color: #767676; }
+  #footer .footer_right {
+    display: flex; }
+    #footer .footer_right p {
+      padding: 0 10px; }
+
+/*# sourceMappingURL=style.css.map */

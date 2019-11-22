@@ -1,0 +1,112 @@
+@import "compass";
+@import url('https://fonts.googleapis.com/css?family=Abel');
+// font-family
+$baseFontFamily :"游ゴシック",
+YuGothic,
+"メイリオ",
+Verdana,
+"Hiragino Kaku Gothic ProN",
+Meiryo,
+sans-serif;
+
+// colors
+$baseColor: #d3d6db;
+$subColor: #3a4750;
+$keyColor: #be3144;
+$fontColor: #303841;
+
+body{
+  color: $fontColor;
+  font-size: 1.4rem;
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em; 
+  background-color: $baseColor;
+}
+
+#main_pictuer {
+    position: relative;
+    .picture {
+        width: 100%;
+        height: 250px;
+    }
+    .main_title{
+        position: absolute;
+        color: #FFF;
+        top: 33%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        font-weight: bold; /*太字に*/
+        font-size: 3.1em;/*サイズ2倍*/
+        font-family: cursive, sans-serif;
+    }
+}
+
+@media (min-width: 769px) {
+    #main_pictuer {
+        .picture {
+            height: 500px;
+        }
+    }
+}
+
+
+#sub {
+    width: 100%;
+    .sub_txt {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .sub_box {
+        padding: 50px;
+        h3 {
+            color: #FFF;
+            text-align: center;
+            background-color: $subColor;
+        }
+        p {
+            background-color: $baseColor;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    #sub {
+        .Sub_Box {
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-around;
+            width: 100%/3;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: $keyColor;
+    p{
+        text-align: center;
+        background-color: $subColor;
+        margin-bottom: 20px;
+        color: #FFF;
+    }
+    .btn-square {
+        display: block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #668ad8;/*ボタン色*/
+        color: #FFF;
+        border-bottom: solid 4px #627295;
+        border-radius: 3px;
+        width: 105px;
+        margin: 0 auto;
+    }
+    &:active {
+        /*ボタンを押したとき*/
+        transform: translateY(4px);/*下に動く*/
+        border-bottom: none;/*線を消す*/
+    }
+}

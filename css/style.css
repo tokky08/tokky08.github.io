@@ -161,23 +161,28 @@ main {
           color: #000;
           transition: all 1.7s; }
       #header .menu-pc ul li:hover {
-        background-color: #000; }
+        background-color: #000;
+        border-radius: 5px; }
         #header .menu-pc ul li:hover a {
           color: #FFF; }
       #header .menu-pc ul .li-about {
-        background-color: #000; }
+        background-color: #000;
+        border-radius: 5px; }
         #header .menu-pc ul .li-about a {
           color: #FFF; }
       #header .menu-pc ul .li-works {
-        background-color: #000; }
+        background-color: #000;
+        border-radius: 5px; }
         #header .menu-pc ul .li-works a {
           color: #FFF; }
       #header .menu-pc ul .li-blog {
-        background-color: #000; }
+        background-color: #000;
+        border-radius: 5px; }
         #header .menu-pc ul .li-blog a {
           color: #FFF; }
       #header .menu-pc ul .li-contact {
-        background-color: #000; }
+        background-color: #000;
+        border-radius: 5px; }
         #header .menu-pc ul .li-contact a {
           color: #FFF; }
 

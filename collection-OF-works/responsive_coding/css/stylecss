@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+#main_pictuer .picture {
+  width: 100%;
+  height: 250px;
+}
+
+/*# sourceMappingURL=stylecss.map */

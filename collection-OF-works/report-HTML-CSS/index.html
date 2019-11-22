@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>report-PGABC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slide_show.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>HTML/CSS要点まとめ！</h1>
+        <ul class="pc_ul">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+        </ul>
+        <div class="menu_sp">
+            <div class="menu_img"><img class="" src="img/hamburger.png" alt="メニューボタン"></div>
+            <ul class="sp_ul">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li class="li_css"><a href="css.html">CSS</a></li>
+                <li class="sp_li_img"><img class="" src="img/fugu.png" alt="フグくん"></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="HTML_CSS">
+            <div class="first">
+                <h1 class="first_title">はじめに</h1>
+                <div class="first_img">
+                    <img class="" src="img/internet.png" alt="インターネットくん">
+                </div>
+                <p>このサイトは、未来電子テクノロジーで課されたレポートです。勉強したHTML/CSSの要点をまとめてみた、簡易的なサイトです。レスポンシブ対応済みなのでスマホでもみれます。</p>
+            </div>
+            <div class="top_HTML_CSS">
+                <div class="top_contents">
+                    <div class="html_img">
+                        <img class="" src="img/html.png" alt="htmlイメージ画像">
+                    </div>
+                    <p class="top_content_text">HTMLの要点をまとめたページです。以下勉強をする際に活用したサイトです。</p>
+                    <ul>
+                        <li><a href="https://saruwakakun.com/html-css">サルワカ</a></li>
+                        <li><a href="http://www.htmq.com/html/">クイックリファレンス-html</a></li>
+                    </ul>
+                    <a href="html.html">
+                        <div class="btn">
+                            <p class="btn_text">詳しくはこちら</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="top_contents">
+                    <div class="css_img">
+                        <img class="" src="img/css.png" alt="htmlイメージ画像">
+                    </div>
+                    <p class="top_content_text">CSSの要点をまとめたページです。以下勉強をする際に活用したサイトです。</p>
+                    <ul>
+                        <li><a href="https://saruwakakun.com/html-css">サルワカ</a></li>
+                        <li><a href="http://www.htmq.com/css/">クイックリファレンス-css</a></li>
+                    </ul>
+                    <a href="css.html">
+                        <div class="btn">
+                            <p class="btn_text">詳しくはこちら</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="text_img">
+            <p class="small_title">HTML/CSS要点まとめ!</p>
+            <div class="character">
+                <img class="" src="img/fugu.png" alt="ふぐ">
+            </div>
+        </div>
+        <p class="to_top"><a href="#">TOPへ</a></p>
+    </footer>
+</body>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        $(function() {
+            $(document).ready(function() {
+
+                $(".menu_img").click(function() {
+                    $(this).next().slideToggle();
+                });
+
+            });
+        });
+    </script>
+    
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>shopping-site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="slide_show_products.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logp_and_navi">
+            <h1 class="header_logo"><img class="" src="images/top/logo.png" alt="ロゴ" srcset="images/top/logo@2x.png 2x"></h1>
+            <div class="header_navi">
+                <ul>
+                    <li><img class="" src="images/top/menu_login.png" alt="login"></li>
+                    <li><img class="" src="images/top/menu_cart.png" alt="cart"></li>
+                    <li><img class="" src="images/top/menu_mypage.png" alt="mypage"></li>
+                    <li><img class="" src="images/top/menu_guide.png" alt="guide"></li>
+                    <li><img class="" src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x"></li>
+                    <li><img class="" src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x"></li>
+                </ul>
+            </div>
+            <div class="header_navi_sp">
+                <div class="facebook_sp"><img class="" src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x"></div>
+                <div class="instagram_sp"><img class="" src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x"></div>
+                <div class="hamburger_navi_sp">
+                    <img class="hamburger" src="images/top_sp/menu_icon.png" alt="menu" srcset="images/top_sp/menu_icon@2x.png 2x">
+                    <ul class="hamburger_hover">
+                        <li>ログイン</li>
+                        <li>カート</li>
+                        <li>マイページ</li>
+                        <li>ショッピングガイド</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_column">
+            <div class="breadcrumbs_list">
+                <ul>
+                    <li><img class="" src="images/list/home_icon.png" alt="ホームアイコン"></li>
+                    <li>HOME</li>
+                    <li>/</li>
+                    <li>カテゴリー名</li>
+                    <li>/</li>
+                    <li>商品名</li>
+                </ul>
+            </div>
+
+            <div class="product">
+                <div class="name_and_number">
+                    <h2 class="product_name">商品名が入ります</h2>
+                    <p class="product_number">fa001-91</p>
+                </div>
+                <div class="product_picture">
+                    <div class="select_and_othres">
+                        <div class="product_select"><img class="" src="images/products/pro_img_01.jpg" alt="picture"></div>
+                        <div class="product_othres">
+                            <div class="flex_othres"><img class="" src="images/products/pro_img_01.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/pro_img_02.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/pro_img_03.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/pro_img_04.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/pro_img_05.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/gray_pro_img.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/gray_pro_img.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/gray_pro_img.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/gray_pro_img.jpg" alt="picture"></div>
+                            <div class="flex_othres"><img class="" src="images/products/gray_pro_img.jpg" alt="picture"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="color_size">
+                    <h2><img class="" src="images/products/title_color.png" alt="COLOR / SIZE"></h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>カラー1</th>
+                            <th>カラー2</th>
+                        </tr>
+                        <tr>
+                            <th>サイズ</th>
+                            <td>□</td>
+                            <td>□</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="price_and_cart">
+                    <div class="price">
+                        <h2><img class="" src="images/products/title_price.png" alt="PRICE"></h2>
+                        <p><span class="span_mark">¥</span><span class="span_price">1,000</span>(tax in)</p>
+                    </div>
+                    <div class="cart_pc"><img class="" src="images/products/add_to_cart.png" alt="cart"></div>
+                </div>
+                <div class="quantity_and_input">
+                    <h2><img class="" src="images/products/title_quantity.png" alt="Quantity"></h2>
+                    <input type="number" name="number">
+                </div>
+
+                <div class="add_to_cart_sp">
+                    <div class="cart_sp"><img class="" src="images/products/add_to_cart.png" alt="cart"></div>
+                </div>
+
+                <div class="product_description">
+                    <h2 class="description">商品説明</h2>
+                    <h2 class="description_title">■説明タイトル説明タイトル説明タイトル説明タイトル</h2>
+                    <p>
+                        説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明
+                        <br>テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ
+                        <br>スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト
+                    </p>
+                    <table>
+                        <tr>
+                            <th>カラー</th>
+                            <td>説明文が入ります説明文が入ります説明文が入ります</td>
+                        </tr>
+                        <tr>
+                            <th>サイズ</th>
+                            <td>説明文が入ります説明文が入ります説明文が入ります</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="recently_viewed">
+                <h2 class="recently_title_pc"><img class="" src="images/list/recent_pro_pc.png" alt="最近見た商品"></h2>
+                <h2 class="recently_title_sp"><img class="" src="images/list/title_recent_pro.png" alt="最近見た商品" srcset="images/list/title_recent_pro@2x.png 2x"></h2>
+                <div class="flex_recently_viewed">
+                    <div class="recently_item">
+                        <a href="products.html">
+                            <div class="picture_item"><img class="" src="images/top/item_01.jpg" alt="item"></div>
+                            <p class="item_txt">商品名が入ります商品名が入ります商品名が入ります</p>
+                            <p class="item_price">¥10,000 (tax in)</p>
+                        </a>
+                    </div>
+                    <div class="recently_item">
+                        <a href="products.html">
+                            <div class="picture_item"><img class="" src="images/top/item_02.jpg" alt="item"></div>
+                            <p class="item_txt">商品名が入ります商品名が入ります商品名が入ります</p>
+                            <p class="item_price">¥10,000 (tax in)</p>
+                        </a>
+                    </div>
+                    <div class="recently_item">
+                        <a href="products.html">
+                            <div class="picture_item"><img class="" src="images/top/item_03.jpg" alt="item"></div>
+                            <p class="item_txt">商品名が入ります商品名が入ります商品名が入ります</p>
+                            <p class="item_price">¥10,000 (tax in)</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="shopping_guide">
+                <h2 class="title_guide_pc"><img class="" src="images/top/title_guide.png" alt="title_guide"></h2>
+                <h2 class="title_guide_sp"><img class="" src="images/top_sp/title_guide.png" alt="title_guide" srcset="images/top_sp/title_guide@2x.png 2x"></h2>
+                <div class="delivery_and_settlement">
+                    <div class="delivery">
+                        <div class="delivery_margin">
+                            <h2>お届けについて</h2>
+                            <p class="otodoke_img"><img class="" src="images/top/otodoke_banner.png" alt="5千円以上のお買い上げで送料無料"></p>
+                            <p class="color_keyColor">■〇〇運輸</p>
+                            <p>送料 ¥000 円</p>
+                            <p class="color_keyColor">■ゆうパケット</p>
+                            <p>ポスト投函となります。日時指定不可</p>
+                        </div>
+                    </div>
+                    <div class="settlement">
+                        <div class="settlement_margin">
+                            <h2>決済について</h2>
+                            <p class="color_keyColor">■カード決済</p>
+                            <p class="cards_img"><img class="" src="images/top/cards.png" alt="カードの種類"></p>
+                            <p class="color_keyColor">■代金引き換え</p>
+                            <p class="settlement_text">代引き手数料が別途かかります</p>
+                            <p class="color_keyColor">■銀行振込</p>
+                            <p class="settlement_text">お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sub_column">
+
+            <div class="item_search">
+                <div class="item_search_logo"><img class="" src="images/top/itemserch.png" alt="item seach"></div>
+                <div class="input_and_icon">
+                    <input type="search" name="search" placeholder="   search..">
+                    <div class="search_icon"><img class="" src="images/top/search_icon.png" alt="search_icon"></div>
+                </div>
+            </div>
+
+            <div class="page_link">
+                <div class="page_link_logo"><img class="" src="images/top/pagelink.png" alt="ページリンク"></div>
+                <div class="next_icon"><img class="" src="images/top/next_icon.png" alt="→"></div>
+            </div>
+
+            <div class="categories">
+                <div class="categories_top">
+                    <div class="categories_logp"><img class="" src="images/top/categories.png" alt="カテゴリー"></div>
+                    <div class="down_icon"><img class="" src="images/top/down_icon.png" alt="↓"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+                <div class="categories_under">
+                    <p><a href="list.html">カテゴリー名</a></p>
+                    <div class="next_icon_gray"><img class="" src="images/top/next_icon_gray.png" alt="→"></div>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="about_logo"><img class="" src="images/top/about.png" alt="about"></div>
+                <div class="about_margin">
+                    <div class="flex_about">
+                        <div class="about_img"><img class="" src="images/top/about_img.jpg" alt="picture"></div>
+                        <div class="p_and_btn">
+                            <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                            <div class="more_btn"><img class="" src="images/top/more_btn.png" alt="btn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop_info">
+                <div class="shop_info_logo"><img class="" src="images/top/shop_info.png" alt="お店の情報"></div>
+                <div class="shop_info_margin">
+                    <div class="flex_shop_info">
+                        <div class="shop_info_img"><img class="" src="images/top/shopinfo_img.jpg" alt="picture"></div>
+                        <div class="p_and_btn">
+                            <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                            <div class="more_btn"><img class="" src="images/top/more_btn.png" alt="btn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer id=footer>
+        <div class="page_top"><a href="#header"><img class="" src="images/top/pagetop.png" alt="ページトップに戻る"></a></div>
+        <ul>
+            <li>特定商取引に基づく表記</li>
+            <li>・</li>
+            <li>プライバシーポリシー</li>
+            <li>・</li>
+            <li>マイページ</li>
+        </ul>
+        <p>copyright (C) APPLE BERRY all rights reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(document).ready(function() {
+                $(".hamburger").click(function() {
+                    $(this).next().slideToggle();
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
