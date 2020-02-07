@@ -233,7 +233,9 @@ main #container {
           padding: 0 10px; }
     main #container .about_text .text p {
       line-height: 1.5;
-      font-size: 14px; }
+      font-size: 14px;
+      word-wrap: break-word;
+      overflow-wrap: break-word; }
 main .fadein {
   opacity: 0;
   transform: translate(0, 50px);

@@ -343,6 +343,8 @@ main {
                 p {
                     line-height: 1.5;
                     font-size: 14px;
+                    word-wrap: break-word;
+                    overflow-wrap: break-word;
                 }
             }
         }
