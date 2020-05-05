@@ -176,8 +176,6 @@ body {
 
 
 main {
-    max-width: 1440px;
-    margin: 0 auto;
     #mainVisual {
         max-width: 1440px;
         width: 100%;
@@ -275,6 +273,7 @@ main {
     }
     main {
         #mainVisual {
+            margin: 0 auto;
             padding-top: 20%;
             padding-bottom: 22%;
         }
@@ -290,7 +289,6 @@ main {
 /////  about  //////
 main {
     #container {
-        max-width: 1440px;
         width: 100%;
         background-color: #f9f9f9;
         padding: 30px 0;
@@ -361,7 +359,6 @@ main {
 //////// works ////////
 main {
     #container {
-        max-width: 1440px;
         #slider {
             #sld_area {
                 .sld {
