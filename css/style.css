@@ -12,9 +12,6 @@
       #html_top body main #mainVisual {
         display: block; }
 
-footer {
-  display: none; }
-
 @media (min-width: 768px) {
   #html_top body {
     margin: 0;
