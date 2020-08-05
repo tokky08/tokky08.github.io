@@ -612,6 +612,9 @@ footer {
     text-align: center;
     font-size: 10px; }
 
+.menu-pc {
+  display: none; }
+
 @media (min-width: 768px) {
   footer p {
     font-size: 14px; } }
